@@ -46,3 +46,8 @@ form button{
 .todo ul li{
     margin: 10px 0;
 }
+@media all and (max-width:845px){
+    form input{
+        width: 50vw;
+    }
+}
