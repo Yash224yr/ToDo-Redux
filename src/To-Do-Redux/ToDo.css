@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+}
+.head{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    flex-direction: column;
+}
+form input{
+    height: 41px;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 0 16px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+}
+form button{
+    width: 80px;
+    border-radius: 20px;
+    height: 31px;
+    border: none;
+    background-color: lightcoral;
+    font-size: 16px;
+    cursor: pointer;
+}
+.todo{
+    margin: 10px 0;
+}
+.todo ul{
+    margin: 26px 0;
+}
+.todo ul li{
+    margin: 10px 0;
+}
